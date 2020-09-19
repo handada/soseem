@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>스와이퍼 샘플</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+
+    <!-- 이거 추가-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.min.css">
+
+    <!-- 아래는 데모 스타일, 여기처럼 index에 head에 넣거나 css파일에 넣어도됨-->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+        
+        body {
+            background: #eee;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        /*  여기서 보여줄라고 추가한 css*/
+        
+        img {
+            width: 100%;
+            height: auto;
+        }
+        
+        body {
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        
+        
+        
+        .swiper-container {
+            width: 80%;
+            max-width: 1250px;
+            height: auto;
+            /*border: 1px solid aqua;*/
+            position: relative;
+        }
+        
+        .swiper-wrapper {
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        
+        .swiper-pagination {
+            position: relative;
+            top: 30px;
+        }
+        
+        .swiper-pagination-bullet {
+            margin: 0 4px
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!--    내가 추가한 div 필수x-->
+    <div class="swiper-box">
+        <!-- html 기본 레이아웃 Swiper -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202008/337fd4aa4041685b5cc10cfc10502925.gif" alt="1"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202008/2bcf98670efe9a514adfd82e919c699e.gif" alt="2"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202009/72fab6ef61027b07f742e9140edc9a19.gif" alt="3"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/medium/202009/b8480b3310bf6b6edbdb078a8bc27b77.gif" alt="4"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202009/fca68a2b42f4886bf60d89751ae8bf46.gif" alt="5"></div>
+
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202008/337fd4aa4041685b5cc10cfc10502925.gif" alt="6"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202008/2bcf98670efe9a514adfd82e919c699e.gif" alt="7"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202009/72fab6ef61027b07f742e9140edc9a19.gif" alt="8"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/medium/202009/b8480b3310bf6b6edbdb078a8bc27b77.gif" alt="9"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202009/fca68a2b42f4886bf60d89751ae8bf46.gif" alt="10"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202008/337fd4aa4041685b5cc10cfc10502925.gif" alt="11"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202008/2bcf98670efe9a514adfd82e919c699e.gif" alt="12"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202009/72fab6ef61027b07f742e9140edc9a19.gif" alt="13"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/medium/202009/b8480b3310bf6b6edbdb078a8bc27b77.gif" alt="14"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202009/fca68a2b42f4886bf60d89751ae8bf46.gif" alt="15"></div>
+
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202008/337fd4aa4041685b5cc10cfc10502925.gif" alt="16"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202008/2bcf98670efe9a514adfd82e919c699e.gif" alt="17"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202009/72fab6ef61027b07f742e9140edc9a19.gif" alt="18"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/medium/202009/b8480b3310bf6b6edbdb078a8bc27b77.gif" alt="19"></div>
+                <div class="swiper-slide"><img src="http://www.dasibom.kr/web/product/tiny/202009/fca68a2b42f4886bf60d89751ae8bf46.gif" alt="20"></div>
+            </div>
+            <!-- 화살표 삭제 Add Arrows -->
+            <!--
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+-->
+        </div>
+
+        <!-- 페이지 번호 표시 Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!--  스와이프 제이쿼리 연결 Swiper JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.min.js"></script>
+
+
+    <!--  스와이프 초기 설정 Initialize Swiper-->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            /*한번에 보이는 슬라이드 수 */
+            slidesPerView: 5,
+            /*슬라이드 간격*/
+            spaceBetween: 30,
+            /*슬라이드 자동재생*/
+            autoplay: {
+              /*자동재생 속도 1000= 1초 지연*/
+                delay: 4000,
+                /*사용자가 액션을 취하면 자동재생 멈추게하겠는가?*/
+                disableOnInteraction: false,
+            },
+            /* 페이지 표시*/
+            pagination: {
+                /*.라는 요소 생성..*/
+                el: '.swiper-pagination',
+                /*클릭할수있게 할건가*/
+                clickable: true,
+            },
+            /*내비게이션: 화살표 버튼 기능, 지금 화살표를 주석처리해놨기 때문에 기능x */
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+
+            },
+        });
+
+    </script>
+
+</body>
+
+</html>
