@@ -20,6 +20,7 @@
 .swiper-container {
     width:calc( 1231px - 68px);
     height: 100%;
+    margin:0;
 }
 
 .swiper-wrapper {
